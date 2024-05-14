@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GcashActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="1215dp"
+        android:layout_height="1037dp"
+        android:layout_marginBottom="112dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/line_bg"
+        tools:layout_editor_absoluteX="-402dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="1215dp"
+        android:layout_height="1037dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/line_bg"
+        tools:layout_editor_absoluteX="-426dp" />
+
+    <TextView
+        android:id="@+id/kn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:text="Delivered in as fast as"
+        android:textColor="#000000"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="136dp" />
+
+    <TextView
+        android:id="@+id/kn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toEndOf="@+id/pay"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <TextView
+        android:id="@+id/kn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0999-524-3382"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="597dp" />
+
+    <TextView
+        android:id="@+id/kn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kathlene Joyce Acopio"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="575dp" />
+
+    <TextView
+        android:id="@+id/kn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="099999999999"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/kn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:text="Ross Jhem P. Acopio"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/truck" />
+
+    <TextView
+        android:id="@+id/kn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="88dp"
+        android:text=" 5 Days"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:text="somewhere over the rainbow, nagkakape 6969"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <ImageView
+        android:id="@+id/truck"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/delivery_truck" />
+
+    <ImageView
+        android:id="@+id/gcash"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/gcash_logo_svg"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <ImageView
+        android:id="@+id/pay"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="224dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hand" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
