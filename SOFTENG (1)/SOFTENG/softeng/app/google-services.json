@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "981431496341",
+    "project_id": "softeng-eeab3",
+    "storage_bucket": "softeng-eeab3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981431496341:android:a1aab23a6b32cbacb7759c",
+        "android_client_info": {
+          "package_name": "com.example.softeng"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvkExWpq-oLTtJbTakBzuiZnWldaD1zAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

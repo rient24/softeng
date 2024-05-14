@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.softeng">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Softeng"
+        tools:targetApi="31">
+        <activity
+            android:name=".QR"
+            android:exported="false" />
+        <activity
+            android:name=".Cart"
+            android:exported="false" />
+        <activity
+            android:name=".BuynowWhiteMug"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OthersBusiness"
+            android:exported="false" />
+        <activity
+            android:name=".OthersLoot"
+            android:exported="false" />
+        <activity
+            android:name=".OthersCan"
+            android:exported="false" />
+        <activity
+            android:name=".OthersShirt"
+            android:exported="false" />
+        <activity
+            android:name=".OthersCoaster"
+            android:exported="false" />
+        <activity
+            android:name=".OthersMouse"
+            android:exported="false" />
+        <activity
+            android:name=".CutOutMag"
+            android:exported="false" />
+        <activity
+            android:name=".RefMag"
+            android:exported="false" />
+        <activity
+            android:name=".AcryMag"
+            android:exported="false" />
+        <activity
+            android:name=".WedInvi"
+            android:exported="false" />
+        <activity
+            android:name=".PocketInvi"
+            android:exported="false" />
+        <activity
+            android:name=".TextInvi"
+            android:exported="false" />
+        <activity
+            android:name=".CHInvi"
+            android:exported="false" />
+        <activity
+            android:name=".CreateInvi"
+            android:exported="false" />
+        <activity
+            android:name=".BirthdayInvi"
+            android:exported="false" />
+        <activity
+            android:name=".RedClock"
+            android:exported="false" />
+        <activity
+            android:name=".GreenClock"
+            android:exported="false" />
+        <activity
+            android:name=".JugTumb"
+            android:exported="false" />
+        <activity
+            android:name=".GlassTumb"
+            android:exported="false" />
+        <activity
+            android:name=".AquaTumb"
+            android:exported="false" />
+        <activity
+            android:name=".SiliconTumb"
+            android:exported="false" />
+        <activity
+            android:name=".ColaJug"
+            android:exported="false" />
+        <activity
+            android:name=".NavBar"
+            android:exported="false"
+            android:label="@string/title_activity_nav_bar" />
+        <activity
+            android:name=".InnerMug"
+            android:exported="false" />
+        <activity
+            android:name=".ClearMug"
+            android:exported="false" />
+        <activity
+            android:name=".NordicMug"
+            android:exported="false" />
+        <activity
+            android:name=".FrostedMug"
+            android:exported="false" />
+        <activity
+            android:name=".MagicMug"
+            android:exported="false" />
+        <activity
+            android:name=".WhiteMug"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPass"
+            android:exported="false" />
+        <activity
+            android:name=".OthersOnly"
+            android:exported="false" />
+        <activity
+            android:name=".MagnetOnly"
+            android:exported="false" />
+        <activity
+            android:name=".InvitationOnly"
+            android:exported="false" />
+        <activity
+            android:name=".ClockOnly"
+            android:exported="false" />
+        <activity
+            android:name=".TumblerOnly"
+            android:exported="false" />
+        <activity
+            android:name=".MugsOnly"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="true" />
+        <activity
+            android:name=".Admin"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
